@@ -1,0 +1,122 @@
+*{
+  margin:0;
+  padding:0;
+}
+@media screen and (min-width:1024px ){
+  body{
+    background-color:lavender;
+  }
+  h1 {
+  color:grey;
+  }
+  article {
+  height:50%;
+  width:100%;
+  font-family:sans-serif;
+  }
+
+  #image-article {
+  margin:1% 35%;
+  }
+  #titre-article {
+  height:100px;
+  width:100%;
+  background-color:grey;
+  color:white;
+  }
+  h2 {
+    text-align: center;
+  }
+  p {
+    text-align: justify;
+    font-size:0.9em;
+  }
+
+  aside {
+  width:80%;
+  margin:0 10%;
+  }
+.text-aside {
+float:right;
+width:45%;
+margin:10% 0;
+}
+.img-aside{
+  margin:2%;
+}
+}
+@media screen and (min-width:600px )and (max-width:1024px){
+    h1 {
+  background-color:grey;
+  height:50px;
+  padding:1% 0;
+  text-indent:0.2em;
+  color:Gainsboro;
+  }
+article {
+  display:none;
+}
+h2 {
+display:none;
+}
+#paragraphe
+{
+display:none;
+}
+aside {
+  width:50%
+}
+  aside, .left {
+    float:left;
+    width:50%;
+  }
+  .text-aside {
+  width:80%;
+  margin:5% 10%;
+  }
+  .img-aside {
+    margin:2% 10%;
+    height:80%;
+    width:80%;
+  }
+  h3 {
+    text-align: center;
+  }
+  p {
+  font-size:0.8em;
+  text-align: justify;
+  }
+}
+@media screen and (max-width:600px ){
+  h1 {
+    height:80%;
+    padding:1% 0;
+    text-indent:0.2em;
+  background-color:grey;
+  color:Gainsboro;
+  }
+  article {
+display: none;
+  }
+  h2 {
+  display: none;
+  }
+  aside {
+  width:100%;
+  margin:0;
+  }
+  .img-aside {
+    margin:2% 5%;
+    width:90%;
+    height:90%;
+  }
+
+p {
+display:none;
+}
+
+h3 {
+text-align: center;
+}
+
+}
